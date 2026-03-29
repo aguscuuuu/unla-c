@@ -42,6 +42,8 @@ The video explains how to install:
 - Environment Visual Studio Code setup
 - Basic configuration
 
+> **Note on IDE choice:** The course professors recommend [Code::Blocks](https://www.codeblocks.org/) as the IDE, as it comes with a built-in compiler and is straightforward for beginners. However, I personally migrated to Visual Studio Code for its ease of use and seamless integration with Git and GitHub.
+
 ### 3. Compile and run
 
 #### Option A — Terminal
