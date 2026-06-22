@@ -1,3 +1,8 @@
+/*
+    Escriba un programa en C que cuente del 10 al 1.
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

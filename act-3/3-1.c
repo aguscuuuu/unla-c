@@ -1,3 +1,17 @@
+/*
+    Realizar un programa en C que pida el ingreso de tres números de la siguiente forma:
+
+    Ingrese la operación (+,-,/,*):
+    Ingrese el primer operando:
+    Ingrese el segundo operando:
+
+    Y de acuerdo a la operación elegida, devuelva el resultado de la misma. Si por ejemplo, el usuario
+    eligió + e ingreso los operandos 15 y 4, el programa devolverá:
+    15 + 4 = 19
+
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,10 @@
+/*
+    Realizar un programa en C que pida al usuario su nombre y su apellido y los muestre por pantalla
+    con el formato apellido, nombre. Si el usuario ingresó nombre=Juan y apellido=Fernández, el programa
+    devolverá el texto "Fernández, Juan".
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

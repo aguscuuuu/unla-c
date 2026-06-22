@@ -1,3 +1,11 @@
+/*
+    Realizar un programa en C que pida dos números al usuario y calcule la división de ambos por medio del
+    método de restas sucesivas. Para ello, restamos el divisor del dividendo sucesivamente hasta que
+    dividendo<divisor. Cuando se alcance esta condición, la cantidad de restas efectuadas será el cociente
+    y lo que queda del dividendo será el resto de la división.
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

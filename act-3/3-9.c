@@ -1,3 +1,11 @@
+/*
+    Realizar un programa en C que sume dos matrices de 3x3. La matriz resultante es también una matriz de
+    3x3 en la que cada elemento es la suma de los elementos correspondientes de las otras dos matrices. Así,
+    el elemento que va en la fila 0, columna 0, es la suma del elemento de la fila 0, columna 0 de la primera
+    matriz con el de la fila 0, columna 0 de la segunda y así sucesivamente.
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

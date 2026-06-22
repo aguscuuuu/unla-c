@@ -1,3 +1,8 @@
+/*
+    Escriba un programa en C que cuente de 2 a 20 de a 2.
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,4 +1,18 @@
-#include <stdio.h>
+/*
+    Realizar un programa en C para calcular el factorial de un número, sabiendo que
+    n! = n*(n-1)*(n-2)...*2*1 y además 0! = 1.
+    Así, 5! = 5*4*3*2*1 = 120. El número debe ser solicitado al usuario con el mensaje:
+    Ingrese un número entero mayor o igual que cero.
+    Si recibió 5, mostrará por pantalla el texto:
+    5! = 120
+    Si recibió 0, mostrará por pantalla el texto:
+    0! = 1
+    Si recibió un número menor que cero, deberá mostrar la leyenda:
+    Error: el factorial no está definido para números menores que cero.
+    --------------------------------------------------------------------------------------------------------
+*/
+
+include <stdio.h>
 #include <stdlib.h>
 
 int main()

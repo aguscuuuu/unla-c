@@ -1,3 +1,11 @@
+/*
+    Realizar un programa en C que, partiendo de una representación binaria de un número almacenada en un vector
+    de longitud 8, lo devuelva como entero en notación decimal. Para pasar de binario a decimal se deberá
+    multiplicar cada posición binaria por la potencia de dos correspondiente. Por ejemplo:
+    11100 = 1 * 2^4 + 1 * 2^3 + 1 * 2^2 + 0 * 2^1 + 0 * 2^0 = 28
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

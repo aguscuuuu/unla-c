@@ -1,3 +1,13 @@
+/*
+    Realizar un programa en C que reciba dos números enteros positivos mayores que cero por teclado y eleve
+    el primero a la potencia del segundo (usando sólo lo visto hasta ahora). Si recibió 3 y 5 deberá mostar
+    el texto:
+    3^5=243
+    Si alguno de los números ingresados es menor que cero, debe mostrar el mensaje:
+    Error: los números ingresados deben ser mayores que cero.
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

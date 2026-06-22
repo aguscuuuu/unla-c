@@ -1,3 +1,9 @@
+/*
+    Realizar un programa en C que contenga un vector con 5 elementos, pida el valor para cada elemento por
+    teclado al usuario y devuelva el mayor de los mismos.
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,9 @@
+/*
+    Escriba un programa en C para que, dados dos números que el usuario ingresa por teclado,
+    imprima la suma, la resta, la multiplicación y la división de los mismos.
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

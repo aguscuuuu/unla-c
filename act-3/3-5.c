@@ -1,3 +1,10 @@
+/*
+    Realizar un programa en C que contenga un vector con 5 elementos, pida el valor para cada elemento por
+    teclado al usuario y devuelva la media de los valores del vector. La media (promedio) se calcula como la
+    suma de los valores de los elementos del vector dividida por la cantidad de elementos.
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

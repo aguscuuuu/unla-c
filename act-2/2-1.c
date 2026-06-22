@@ -1,3 +1,13 @@
+/*
+    Realizar un programa en C que reciba dos números enteros mayores que cero por teclado y devuelva la suma
+    de los números impares que se encuentren entre ambos. Si, por ejemplo, se hubieran ingresado el 1 y el 10,
+    calculará la suma de 1+3+5+7+9 = 25 y devolverá el texto:
+    La suma de los impares entre 1 y 10 es 25.
+    Si alguno de los números ingresados es menor que cero, debe mostrar el mensaje:
+    Error: los números ingresados deben ser mayores que cero.
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

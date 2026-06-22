@@ -1,3 +1,25 @@
+/*
+    Realizar un programa en C que calcule el elemento n de la Sucesión de Fibonacci. Recordamos que:
+    fib(0)=0 , fib(1)=1 , fib(n) = fib(n-1) + fib(n-2)
+    El número n debe ser solicitado al usuario con el mensaje:
+    Ingrese un número entero mayor o igual que cero.
+
+    Si por ejemplo recibió 5, mostrará por pantalla el texto:
+    fib(5)=5
+    Si por ejemplo recibió 0, mostrará por pantalla el texto:
+    fib(0)=0
+    Si por ejemplo recibió 1, mostrará por pantalla el texto:
+    fib(1)=1
+    Si recibió un número menor que cero, deberá mostrar por pantalla el texto:
+    Error: la Sucesión de Fibonacci no está definida para números menores que cero.
+
+    Recordando los primeros números de la Sucesión:
+
+    Número:     0   1   1   2   3   5   8 ...
+    Posición:   0   1   2   3   4   5   6 ...
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

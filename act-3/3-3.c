@@ -1,3 +1,9 @@
+/*
+    Realizar un programa en C en el cual un jugador ingrese un número de 1 a 100 y que otro deba adivinarlo
+    en un determinado número de intentos.
+    --------------------------------------------------------------------------------------------------------
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
