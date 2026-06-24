@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 // 1)
 void *obtenerMemoria(size_t tamanio){ // la función recibe parametro de tipo size_t (tamaño de memoria a asignar)
