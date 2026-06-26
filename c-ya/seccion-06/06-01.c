@@ -1,6 +1,10 @@
-// Realizar un programa que solicite la carga por teclado de dos números,
-// si el primero es mayor al segundo informar su suma y diferencia, en caso
-// contrario informar el producto y la división del primero respecto al segundo.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Realizar un programa que solicite la carga por teclado de dos nï¿½meros,
+	si el primero es mayor al segundo informar su suma y diferencia, en caso
+	contrario informar el producto y la divisiï¿½n del primero respecto al segundo.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

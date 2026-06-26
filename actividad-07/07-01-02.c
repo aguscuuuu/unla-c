@@ -1,3 +1,8 @@
+/*
+    Actividad 7 = GuÃ­a 5
+    Reescribir los algoritmos de bÃºsqueda binaria utilizando punteros
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -9,7 +14,7 @@ int buscarBinario(int *vector, int longitud, int numBuscado) {
         int *medio = inicio + (fin - inicio) / 2;
 
         if (*medio == numBuscado) {
-            return medio - vector; // calculamos la posición mediante la aritmética de punteros
+            return medio - vector; // calculamos la posiciï¿½n mediante la aritmï¿½tica de punteros
         } else if (*medio < numBuscado) {
             inicio = medio + 1;
         } else {

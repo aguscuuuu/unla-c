@@ -1,6 +1,10 @@
-// Realizar la carga de valores enteros por teclado y sumarlos. Cada vez que
-// se carga un valor pedir al operador que ingrese si quiere cargar otro valor
-// ingresando una 's' o 'S' (minúscula o mayúscula)
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Realizar la carga de valores enteros por teclado y sumarlos. Cada vez que
+	se carga un valor pedir al operador que ingrese si quiere cargar otro valor
+	ingresando una 's' o 'S' (minï¿½scula o mayï¿½scula)
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

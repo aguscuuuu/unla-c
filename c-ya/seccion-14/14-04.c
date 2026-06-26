@@ -1,5 +1,9 @@
-// Permitir el ingreso de una palabra en minúsculas por teclado.
-// Cambiar todas las vocales por un caracter de guión: '-'.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Permitir el ingreso de una palabra en minï¿½sculas por teclado.
+	Cambiar todas las vocales por un caracter de guiï¿½n: '-'.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

@@ -1,7 +1,11 @@
-// Desarrollar un programa con dos funciones aparte de la main.
-// La primer solicite el ingreso de un entero y muestre el cuadrado de dicho valor.
-// La segunda que solicite la carga de dos valores y muestre el producto de los mismos.
-// Llamar desde la main a ambas funciones.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Desarrollar un programa con dos funciones aparte de la main.
+	La primer solicite el ingreso de un entero y muestre el cuadrado de dicho valor.
+	La segunda que solicite la carga de dos valores y muestre el producto de los mismos.
+	Llamar desde la main a ambas funciones.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void cuadrado(){

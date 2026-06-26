@@ -1,5 +1,9 @@
-// Definir una matriz de 2 filas y 5 columnas. Realizar su carga e impresión.
-// Intercambiar los elementos de la primera fila con la segunda y volver a imprimir la matriz.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Definir una matriz de 2 filas y 5 columnas. Realizar su carga e impresión.
+	Intercambiar los elementos de la primera fila con la segunda y volver a imprimir la matriz.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void cargarMatriz(int matriz[2][5]){

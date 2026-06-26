@@ -1,12 +1,20 @@
-// En un banco se procesan datos de las cuentas corrientes de sus clientes. De cada cuenta corriente
-// se conoce: número de cuenta y saldo actual. El ingreso de datos debe finalizar al ingresar un valor
-// negativo en el número de cuenta. Se pide confeccionar un programa que lea los datos de las cuentas
-// corrientes e informe: el número de cada cuenta y estado de la cuenta según su saldo, sabiendo que:
-// A) Estado de la cuenta
-//     'Acreedor' si el saldo es >0.
-//     'Deudor' si el saldo es <0.
-//     'Nulo' si el saldo es =0.
-// B) La suma total de los saldos acreedores.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	En un banco se procesan datos de las cuentas corrientes de sus clientes. De cada cuenta
+	corriente
+	se conoce: nï¿½mero de cuenta y saldo actual. El ingreso de datos debe finalizar al ingresar
+	un valor
+	negativo en el nï¿½mero de cuenta. Se pide confeccionar un programa que lea los datos de las
+	cuentas
+	corrientes e informe: el nï¿½mero de cada cuenta y estado de la cuenta segï¿½n su saldo,
+	sabiendo que:
+	A) Estado de la cuenta
+	'Acreedor' si el saldo es >0.
+	'Deudor' si el saldo es <0.
+	'Nulo' si el saldo es =0.
+	B) La suma total de los saldos acreedores.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

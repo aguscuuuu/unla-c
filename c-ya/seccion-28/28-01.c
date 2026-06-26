@@ -1,13 +1,17 @@
-// Se tiene la siguiente declaración de registro:
-// struct pais {
-//    char nombre[40];
-//    int cantidadhab;
-// };
-// Definir tres variables de tipo país e iniciarlas por asignación con la sintaxis:
-// struct pais pais1={"Argentina",40000000};
-// Elaborar una función que reciba un parámetro de tipo pais y muestre por pantalla
-// sus dos campos. Llamar a dicha función desde la main pasando en forma sucesiva las
-// tres variables definidas.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se tiene la siguiente declaraciï¿½n de registro:
+	struct pais {
+	char nombre[40];
+	int cantidadhab;
+	};
+	Definir tres variables de tipo paï¿½s e iniciarlas por asignaciï¿½n con la sintaxis:
+	struct pais pais1={"Argentina",40000000};
+	Elaborar una funciï¿½n que reciba un parï¿½metro de tipo pais y muestre por pantalla
+	sus dos campos. Llamar a dicha funciï¿½n desde la main pasando en forma sucesiva las
+	tres variables definidas.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 struct pais {

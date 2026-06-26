@@ -1,5 +1,9 @@
-// Cargar un vector de 10 elementos y verificar posteriormente si el mismo
-// está ordenado de menor a mayor. Hacer las dos actividades en funciones distintas.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Cargar un vector de 10 elementos y verificar posteriormente si el mismo
+	estï¿½ ordenado de menor a mayor. Hacer las dos actividades en funciones distintas.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void cargar(int vector[10]){

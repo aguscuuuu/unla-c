@@ -1,5 +1,9 @@
-// Se ingresa por teclado un valor entero, mostrar una leyenda que indique si el
-// número es positivo, negativo o nulo (es decir cero)
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se ingresa por teclado un valor entero, mostrar una leyenda que indique si el
+	nï¿½mero es positivo, negativo o nulo (es decir cero)
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

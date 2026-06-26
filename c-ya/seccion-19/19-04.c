@@ -1,6 +1,11 @@
-// Se tienen las notas del primer parcial de los alumnos de dos cursos, el curso A y el curso B, cada curso cuenta con 5 alumnos.
-// 1) Realizar la carga de las notas.
-// 2) Mostrar el nombre del curso que obtuvo el mayor promedio general.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se tienen las notas del primer parcial de los alumnos de dos cursos, el curso A y el curso
+	B, cada curso cuenta con 5 alumnos.
+	1) Realizar la carga de las notas.
+	2) Mostrar el nombre del curso que obtuvo el mayor promedio general.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void cargarNotas(int vector[5]){

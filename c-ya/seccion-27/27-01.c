@@ -1,10 +1,16 @@
-// Se tiene la siguiente declaración de registro:
-// struct pais {
-//     char nombre[40];
-//     int cantidadhab;
-// };
-// Definir tres variables de tipo país y almacenar los nombres de los países y la cantidad de habitantes de dichos países.
-// Mostrar seguidamente el nombre del país con mayor cantidad de habitantes (considerar que los tres países tienen cantidades distintas)
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se tiene la siguiente declaraciï¿½n de registro:
+	struct pais {
+	char nombre[40];
+	int cantidadhab;
+	};
+	Definir tres variables de tipo paï¿½s y almacenar los nombres de los paï¿½ses y la cantidad de
+	habitantes de dichos paï¿½ses.
+	Mostrar seguidamente el nombre del paï¿½s con mayor cantidad de habitantes (considerar que
+	los tres paï¿½ses tienen cantidades distintas)
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 struct pais {

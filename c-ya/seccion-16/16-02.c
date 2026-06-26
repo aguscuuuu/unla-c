@@ -1,5 +1,9 @@
-// Desarrollar una función que solicite la carga de tres valores y
-// muestre el menor. Desde la función main llamar 3 veces a dicha función.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Desarrollar una funciï¿½n que solicite la carga de tres valores y
+	muestre el menor. Desde la funciï¿½n main llamar 3 veces a dicha funciï¿½n.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void menor(){

@@ -1,5 +1,9 @@
-// 1)Realizar la carga del lado de un cuadrado, mostrar por pantalla el perímetro del mismo
-//   (El perímetro de un cuadrado se calcula multiplicando el valor del lado por cuatro)
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Realizar la carga del lado de un cuadrado, mostrar por pantalla el perï¿½metro del mismo
+	(El perï¿½metro de un cuadrado se calcula multiplicando el valor del lado por cuatro)
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

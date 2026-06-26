@@ -1,8 +1,12 @@
-// Se realiza la carga de 10 valores enteros por teclado. Se desea conocer:
-// a) La cantidad de valores ingresados negativos.
-// b) La cantidad de valores ingresados positivos.
-// c) La cantidad de múltiplos de 15.
-// d) El valor acumulado de los números ingresados que son pares.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se realiza la carga de 10 valores enteros por teclado. Se desea conocer:
+	a) La cantidad de valores ingresados negativos.
+	b) La cantidad de valores ingresados positivos.
+	c) La cantidad de mï¿½ltiplos de 15.
+	d) El valor acumulado de los nï¿½meros ingresados que son pares.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

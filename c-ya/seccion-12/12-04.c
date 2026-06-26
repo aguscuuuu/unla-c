@@ -1,5 +1,9 @@
-// Cargar un vector de 10 elementos y verificar posteriormente
-// si el mismo está ordenado de menor a mayor.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Cargar un vector de 10 elementos y verificar posteriormente
+	si el mismo estï¿½ ordenado de menor a mayor.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()
@@ -17,9 +21,9 @@ int main()
         }
     }
     if(orden==1){
-        printf("\nEL VECTOR ESTÁ ORDENADO DE MENOR A MAYOR\n");
+        printf("\nEL VECTOR ESTï¿½ ORDENADO DE MENOR A MAYOR\n");
     }else{
-        printf("\nEL VECTOR NO ESTÁ ORDENADO DE MENOR A MAYOR\n")
+        printf("\nEL VECTOR NO ESTï¿½ ORDENADO DE MENOR A MAYOR\n")
     }
 
     return 0;

@@ -1,4 +1,8 @@
-// Se cargan por teclado tres números distintos. Mostrar por pantalla el mayor de ellos.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se cargan por teclado tres nï¿½meros distintos. Mostrar por pantalla el mayor de ellos.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

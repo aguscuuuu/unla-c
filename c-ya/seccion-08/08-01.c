@@ -1,4 +1,9 @@
-// Realizar un programa que pida cargar una fecha cualquiera, luego verificar si dicha fecha corresponde a Navidad.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Realizar un programa que pida cargar una fecha cualquiera, luego verificar si dicha fecha
+	corresponde a Navidad.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

@@ -1,5 +1,9 @@
-// Se ingresan por teclado tres números, si todos los valores ingresados son menores
-// a 10, imprimir en pantalla la leyenda "Todos los números son menores a diez".
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se ingresan por teclado tres nï¿½meros, si todos los valores ingresados son menores
+	a 10, imprimir en pantalla la leyenda "Todos los nï¿½meros son menores a diez".
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

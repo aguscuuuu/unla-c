@@ -1,5 +1,9 @@
-// Ingresar por teclado dos nombres de personas y luego mostrarlas
-// primero el que tiene más caracteres y luego el que tiene menos.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Ingresar por teclado dos nombres de personas y luego mostrarlas
+	primero el que tiene mï¿½s caracteres y luego el que tiene menos.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

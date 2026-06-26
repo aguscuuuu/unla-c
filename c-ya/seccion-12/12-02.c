@@ -1,6 +1,10 @@
-// Realizar un programa que pida la carga de dos vectores numéricos enteros de 4
-// elementos. Obtener la suma de los dos vectores, dicho resultado guardarlo en un
-// tercer vector del mismo tamaño. Sumar componente a componente.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Realizar un programa que pida la carga de dos vectores numï¿½ricos enteros de 4
+	elementos. Obtener la suma de los dos vectores, dicho resultado guardarlo en un
+	tercer vector del mismo tamaï¿½o. Sumar componente a componente.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

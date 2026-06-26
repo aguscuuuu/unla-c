@@ -1,14 +1,19 @@
-// Se tiene la siguiente declaración de registro:
-// struct libro{
-//    int codigo;
-//    char titulo[40];
-//    char autor[40];
-// };
-// Definir un vector de cuatro elementos de tipo libro.
-// Codificar las funciones:
-// 1-Carga del vector.
-// 2-Listado completo.
-// 3-Ingresar por teclado un nombre de autor y luego mostrar todos los títulos de libros que ha escrito o un mensaje si no tiene.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se tiene la siguiente declaraciï¿½n de registro:
+	struct libro{
+	int codigo;
+	char titulo[40];
+	char autor[40];
+	};
+	Definir un vector de cuatro elementos de tipo libro.
+	Codificar las funciones:
+	1-Carga del vector.
+	2-Listado completo.
+	3-Ingresar por teclado un nombre de autor y luego mostrar todos los tï¿½tulos de libros que
+	ha escrito o un mensaje si no tiene.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

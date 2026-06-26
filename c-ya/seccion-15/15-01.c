@@ -1,6 +1,10 @@
-// Confeccionar un programa que pida ingresar el nombre de usuario y
-// clave en dos string. Mostrar un mensaje "Correcto" si se ingresa
-// como clave la cadena "abc123".
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Confeccionar un programa que pida ingresar el nombre de usuario y
+	clave en dos string. Mostrar un mensaje "Correcto" si se ingresa
+	como clave la cadena "abc123".
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

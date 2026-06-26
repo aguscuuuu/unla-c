@@ -1,8 +1,12 @@
-// Confeccionar una función que calcule la superficie de un rectángulo y la retorne,
-// la función recibe como parámetros los valores de dos de sus lados:
-// int retornarSuperficie(int lado1,int lado2)
-// En la función main del programa cargar los lados de dos rectángulos y
-// luego mostrar cual de los dos tiene una superficie mayor.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Confeccionar una funciï¿½n que calcule la superficie de un rectï¿½ngulo y la retorne,
+	la funciï¿½n recibe como parï¿½metros los valores de dos de sus lados:
+	int retornarSuperficie(int lado1,int lado2)
+	En la funciï¿½n main del programa cargar los lados de dos rectï¿½ngulos y
+	luego mostrar cual de los dos tiene una superficie mayor.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int retornarSuperficie(int lado1, int lado2){

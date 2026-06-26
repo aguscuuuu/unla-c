@@ -1,6 +1,10 @@
-// Ingresar por teclado dos números enteros. Si los valores
-// son iguales sumarlos, sino multiplicarlos. Emplear el operador
-// condicional ?: para guardar en una variable el resultado.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Ingresar por teclado dos nï¿½meros enteros. Si los valores
+	son iguales sumarlos, sino multiplicarlos. Emplear el operador
+	condicional ?: para guardar en una variable el resultado.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main(){

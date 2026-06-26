@@ -1,8 +1,12 @@
-// Confeccionar un programa que solicite el ingreso de un entero por
-// teclado y luego grabe en un archivo los números comprendidos entre
-// 1 y el número ingresado de uno en uno. Ej. Si se ingresa un 10 luego
-// se graban en el archivo 1,2,3,4,5,6,7,8,9,10 (nombre del archivo: "archivo5.dat")
-// Imprimir luego el contenido del archivo
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Confeccionar un programa que solicite el ingreso de un entero por
+	teclado y luego grabe en un archivo los nï¿½meros comprendidos entre
+	1 y el nï¿½mero ingresado de uno en uno. Ej. Si se ingresa un 10 luego
+	se graban en el archivo 1,2,3,4,5,6,7,8,9,10 (nombre del archivo: "archivo5.dat")
+	Imprimir luego el contenido del archivo
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void crearCargar(int numero){

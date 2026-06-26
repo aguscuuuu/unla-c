@@ -1,6 +1,10 @@
-// Crear una matriz de 3 filas y 5 columnas. Realizar la carga de componentes
-// por columna (es decir primero ingresar toda la primer columna, luego la segunda
-// columna y así sucesivamente) Imprimir luego la matriz.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Crear una matriz de 3 filas y 5 columnas. Realizar la carga de componentes
+	por columna (es decir primero ingresar toda la primer columna, luego la segunda
+	columna y así sucesivamente) Imprimir luego la matriz.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void cargarMatriz(int matriz[3][5]){

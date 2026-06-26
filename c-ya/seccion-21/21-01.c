@@ -1,5 +1,9 @@
-// Cargar un vector de 5 elementos enteros. Ordenarlo de mayor a menor
-// y mostrarlo por pantalla, luego ordenar de menor a mayor e imprimir nuevamente.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Cargar un vector de 5 elementos enteros. Ordenarlo de mayor a menor
+	y mostrarlo por pantalla, luego ordenar de menor a mayor e imprimir nuevamente.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void cargarVector(int vector[5]){

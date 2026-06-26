@@ -1,5 +1,9 @@
-// Mostrar todos los múltiplos de 8 que hay hasta el valor 500.
-// Debe aparecer en pantalla 8 - 16 - 24, etc.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Mostrar todos los mï¿½ltiplos de 8 que hay hasta el valor 500.
+	Debe aparecer en pantalla 8 - 16 - 24, etc.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

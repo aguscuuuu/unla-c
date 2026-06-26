@@ -1,6 +1,10 @@
-// Desarrollar una función que reciba como parámetro un caracter.
-// La función debe mostrar un mensaje si es una vocal o no es una vocal.
-// Debe funcionar tanto con mayúsculas y minúsculas.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Desarrollar una funciï¿½n que reciba como parï¿½metro un caracter.
+	La funciï¿½n debe mostrar un mensaje si es una vocal o no es una vocal.
+	Debe funcionar tanto con mayï¿½sculas y minï¿½sculas.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void esVocal(char caracter){

@@ -1,4 +1,8 @@
-// Desarrollar un programa que muestre la tabla de multiplicar del 5 (del 5 al 50)
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Desarrollar un programa que muestre la tabla de multiplicar del 5 (del 5 al 50)
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

@@ -1,8 +1,15 @@
-// En un curso de 4 alumnos se registraron las notas de sus exámenes y se deben procesar de acuerdo a lo siguiente:
-// a) Ingresar Nombre y Nota de cada alumno (almacenar los datos en estructuras paralelas)
-// b) Realizar un listado que muestre los nombres, notas y condición del alumno. En la condición, colocar "Muy Bueno"
-//    si la nota es mayor o igual a 8, "Bueno" si la nota está entre 4 y 7, y colocar "Insuficiente" si la nota es inferior a 4.
-// c) Imprimir cuantos alumnos tienen la leyenda “Muy Bueno”.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	En un curso de 4 alumnos se registraron las notas de sus exï¿½menes y se deben procesar de
+	acuerdo a lo siguiente:
+	a) Ingresar Nombre y Nota de cada alumno (almacenar los datos en estructuras paralelas)
+	b) Realizar un listado que muestre los nombres, notas y condiciï¿½n del alumno. En la
+	condiciï¿½n, colocar "Muy Bueno"
+	si la nota es mayor o igual a 8, "Bueno" si la nota estï¿½ entre 4 y 7, y colocar
+	"Insuficiente" si la nota es inferior a 4.
+	c) Imprimir cuantos alumnos tienen la leyenda ï¿½Muy Buenoï¿½.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void cargar(char matriz[4][41], int vector[4]){

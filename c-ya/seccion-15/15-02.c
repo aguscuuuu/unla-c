@@ -1,4 +1,8 @@
-// Ingresar por teclado dos nombres de personas y luego mostrarlas ordenados alfabéticamente
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Ingresar por teclado dos nombres de personas y luego mostrarlas ordenados alfabï¿½ticamente
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

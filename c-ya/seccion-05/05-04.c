@@ -1,6 +1,10 @@
-// Se debe desarrollar un programa que pida el ingreso del precio de un artículo
-// y la cantidad que lleva el cliente. Mostrar lo que debe abonar el comprador.
-// Definir una variable float para el precio del artículo.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se debe desarrollar un programa que pida el ingreso del precio de un artï¿½culo
+	y la cantidad que lleva el cliente. Mostrar lo que debe abonar el comprador.
+	Definir una variable float para el precio del artï¿½culo.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

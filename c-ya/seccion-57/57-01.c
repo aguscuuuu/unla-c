@@ -1,11 +1,15 @@
-// Confeccionar un programa que permita administrar un vector de 5 enteros.
-// Mostrar un menú de opciones:
-// 1 - Cargar el vector.
-// 2 - Mostrarlo
-// 3 - Imprimir el mayor
-// 4 - Imprimir el menor
-// 5 - Finalizar el programa
-// Utilizar un switch para la selección de la opción y la llamada a la función respectiva.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Confeccionar un programa que permita administrar un vector de 5 enteros.
+	Mostrar un menï¿½ de opciones:
+	1 - Cargar el vector.
+	2 - Mostrarlo
+	3 - Imprimir el mayor
+	4 - Imprimir el menor
+	5 - Finalizar el programa
+	Utilizar un switch para la selecciï¿½n de la opciï¿½n y la llamada a la funciï¿½n respectiva.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void cargarVector(int vector[5]){

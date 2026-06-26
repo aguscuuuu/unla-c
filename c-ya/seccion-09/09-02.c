@@ -1,4 +1,9 @@
-// Se ingresan un conjunto de n alturas de personas por teclado. Mostrar la altura promedio de las personas
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se ingresan un conjunto de n alturas de personas por teclado. Mostrar la altura promedio de
+	las personas
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

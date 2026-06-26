@@ -1,6 +1,11 @@
-// Se ingresa por teclado un número positivo de uno o dos dígitos (1..99) mostrar un mensaje
-// indicando si el número tiene uno o dos dígitos.(Tener en cuenta que condición debe cumplirse
-// para tener dos dígitos un número entero)
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se ingresa por teclado un nï¿½mero positivo de uno o dos dï¿½gitos (1..99) mostrar un mensaje
+	indicando si el nï¿½mero tiene uno o dos dï¿½gitos.(Tener en cuenta que condiciï¿½n debe
+	cumplirse
+	para tener dos dï¿½gitos un nï¿½mero entero)
+    --------------------------------------------------------------------------------------------------------
+*/
 
 #include <stdio.h>
 #include <stdlib.h>

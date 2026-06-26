@@ -1,23 +1,28 @@
-// Desarrollar un programa que permita administrar un vector de 8 elementos tipo entero.
-// Se deben codificar las siguientes funciones:
-// 1) Carga del vector.
-//    void cargar(int vector[8])
-// 2) Retornar el valor acumulado de todos los elementos del vector.
-//    int sumar(int vector[8])
-// 3) Retornar el valor acumulado de los elementos del vector que sean mayores a 36.
-//    int sumaMayores36(int vector[8])
-// 4) Retornar la cantidad de componentes con valores mayores a 50.
-//    int cantidadMayores50(int vector[8])
-//    La función main:
-// int main(){
-//    int vector[8];
-//    cargar(vector);
-//    printf("valor acumulado de todos los elementos:%i\n", sumar(vector));
-//    printf("valor acumulado de los elementos del vector que sean mayores a 36: %i\n", sumaMayores36(vector));
-//    printf("cantidad de componentes con valores mayores a 50: %i", cantidadMayores50(vector));
-//    getch();
-//    return 0;
-// }
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Desarrollar un programa que permita administrar un vector de 8 elementos tipo entero.
+	Se deben codificar las siguientes funciones:
+	1) Carga del vector.
+	void cargar(int vector[8])
+	2) Retornar el valor acumulado de todos los elementos del vector.
+	int sumar(int vector[8])
+	3) Retornar el valor acumulado de los elementos del vector que sean mayores a 36.
+	int sumaMayores36(int vector[8])
+	4) Retornar la cantidad de componentes con valores mayores a 50.
+	int cantidadMayores50(int vector[8])
+	La funciï¿½n main:
+	int main(){
+	int vector[8];
+	cargar(vector);
+	printf("valor acumulado de todos los elementos:%i\n", sumar(vector));
+	printf("valor acumulado de los elementos del vector que sean mayores a 36: %i\n",
+	sumaMayores36(vector));
+	printf("cantidad de componentes con valores mayores a 50: %i", cantidadMayores50(vector));
+	getch();
+	return 0;
+	}
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void cargar(int vector[8]){

@@ -1,3 +1,7 @@
+/*
+    Reescribir los algoritmos de ordenamiento utilizando punteros
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

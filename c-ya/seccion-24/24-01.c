@@ -1,7 +1,11 @@
-// Ingresar el nombre de 5 productos en una matriz de caracteres
-// y sus respectivos precios en un vector paralelo de tipo float.
-// Mostrar cuantos productos tienen un precio mayor al primer
-// producto ingresado (se debe contar)
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Ingresar el nombre de 5 productos en una matriz de caracteres
+	y sus respectivos precios en un vector paralelo de tipo float.
+	Mostrar cuantos productos tienen un precio mayor al primer
+	producto ingresado (se debe contar)
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void cargar(char matriz[5][41], float vector[5]){

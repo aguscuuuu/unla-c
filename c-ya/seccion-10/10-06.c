@@ -1,7 +1,11 @@
-// Escribir un programa que pida ingresar coordenadas (x,y)
-// que representan puntos en el plano. Informar cuántos puntos se
-// han ingresado en el primer, segundo, tercer y cuarto cuadrante. Al
-// comenzar el programa se pide que se ingrese la cantidad de puntos a procesar.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Escribir un programa que pida ingresar coordenadas (x,y)
+	que representan puntos en el plano. Informar cuï¿½ntos puntos se
+	han ingresado en el primer, segundo, tercer y cuarto cuadrante. Al
+	comenzar el programa se pide que se ingrese la cantidad de puntos a procesar.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

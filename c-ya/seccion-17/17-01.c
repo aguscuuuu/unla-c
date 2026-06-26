@@ -1,6 +1,10 @@
-// Confeccionar una función que reciba tres enteros y
-// nos muestre el mayor de ellos. La carga de los valores
-// hacerlo por teclado en la función main.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Confeccionar una funciï¿½n que reciba tres enteros y
+	nos muestre el mayor de ellos. La carga de los valores
+	hacerlo por teclado en la funciï¿½n main.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void mayor(int numero1, int numero2, int numero3){

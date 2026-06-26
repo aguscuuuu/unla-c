@@ -1,8 +1,12 @@
-// Realizar un programa que lea los lados de n triángulos, e informar:
-// a) De cada uno de ellos, qué tipo de triángulo es: equilátero (tres lados iguales),
-//    isósceles (dos lados iguales), o escaleno (ningún lado igual)
-// b) Cantidad de triángulos de cada tipo.
-// c) Tipo de triángulo que posee menor cantidad.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Realizar un programa que lea los lados de n triï¿½ngulos, e informar:
+	a) De cada uno de ellos, quï¿½ tipo de triï¿½ngulo es: equilï¿½tero (tres lados iguales),
+	isï¿½sceles (dos lados iguales), o escaleno (ningï¿½n lado igual)
+	b) Cantidad de triï¿½ngulos de cada tipo.
+	c) Tipo de triï¿½ngulo que posee menor cantidad.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

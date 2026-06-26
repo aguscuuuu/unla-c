@@ -1,6 +1,10 @@
-// Elaborar una función que reciba un valor entero y nos muestre
-// desde el 1 hasta dicho valor. Si la función recibe un valor negativo
-// mostrar un mensaje de error.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Elaborar una funciï¿½n que reciba un valor entero y nos muestre
+	desde el 1 hasta dicho valor. Si la funciï¿½n recibe un valor negativo
+	mostrar un mensaje de error.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void secuencia(int numero){

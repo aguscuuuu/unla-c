@@ -1,11 +1,18 @@
-// Se tiene la siguiente información:
-// · Nombres de 4 empleados (matriz de tipo char)
-// · Ingresos en concepto de sueldo, cobrado por cada empleado, en los últimos 3 meses (matriz de tipo float)
-// Confeccionar el programa para:
-// a) Realizar la carga de la información mencionada.
-// b) Generar un vector que contenga el ingreso acumulado en sueldos en los últimos 3 meses para cada empleado.
-// c) Mostrar por pantalla el total pagado en sueldos a todos los empleados en los últimos 3 meses
-// d) Obtener el nombre del empleado que tuvo el mayor ingreso acumulado
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se tiene la siguiente informaciï¿½n:
+	ï¿½ Nombres de 4 empleados (matriz de tipo char)
+	ï¿½ Ingresos en concepto de sueldo, cobrado por cada empleado, en los ï¿½ltimos 3 meses (matriz
+	de tipo float)
+	Confeccionar el programa para:
+	a) Realizar la carga de la informaciï¿½n mencionada.
+	b) Generar un vector que contenga el ingreso acumulado en sueldos en los ï¿½ltimos 3 meses
+	para cada empleado.
+	c) Mostrar por pantalla el total pagado en sueldos a todos los empleados en los ï¿½ltimos 3
+	meses
+	d) Obtener el nombre del empleado que tuvo el mayor ingreso acumulado
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

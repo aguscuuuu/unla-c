@@ -1,7 +1,11 @@
-// Definir una matriz de 5 filas y 10 columnas. Cargar valores
-// aleatorios comprendidos entre 10 y 90.
-// Ingresar por teclado un número y verificar si se encuentra en
-// la matriz. No buscar más si se lo encuentra, salir de los ciclos mediante un goto.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Definir una matriz de 5 filas y 10 columnas. Cargar valores
+	aleatorios comprendidos entre 10 y 90.
+	Ingresar por teclado un nï¿½mero y verificar si se encuentra en
+	la matriz. No buscar mï¿½s si se lo encuentra, salir de los ciclos mediante un goto.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

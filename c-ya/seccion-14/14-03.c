@@ -1,5 +1,9 @@
-// Confeccionar un programa que permita ingresar una palabra y
-// luego muestre un mensaje si la misma comienza con la vocal 'A' o 'a'.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Confeccionar un programa que permita ingresar una palabra y
+	luego muestre un mensaje si la misma comienza con la vocal 'A' o 'a'.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

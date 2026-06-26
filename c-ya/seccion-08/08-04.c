@@ -1,5 +1,10 @@
-// Se ingresan por teclado tres números, si al menos uno de los valores
-// ingresados es menor a 10, imprimir en pantalla la leyenda "Alguno de los números es menor a diez".
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se ingresan por teclado tres nï¿½meros, si al menos uno de los valores
+	ingresados es menor a 10, imprimir en pantalla la leyenda "Alguno de los nï¿½meros es menor a
+	diez".
+    --------------------------------------------------------------------------------------------------------
+*/
 
 #include <stdio.h>
 #include <stdlib.h>

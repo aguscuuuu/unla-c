@@ -1,5 +1,9 @@
-// Desarrollar un programa que solicite la carga de
-// 10 números e imprima la suma de los últimos 5 valores ingresados
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Desarrollar un programa que solicite la carga de
+	10 nï¿½meros e imprima la suma de los ï¿½ltimos 5 valores ingresados
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

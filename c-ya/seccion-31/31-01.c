@@ -1,18 +1,22 @@
-// Se tienen las siguientes declaraciones de registros:
-// struct punto {
-//     int x;
-//     int y;
-// };
-//
-// struct triangulo {
-//     struct punto punto1;
-//     struct punto punto2;
-//     struct punto punto3;
-// };
-// Definir en la main un registro de tipo triangulo.
-// Codificar las funciones:
-// 1-Una función que retorne un registro de tipo triangulo.
-// 2-Impresión del registro.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Se tienen las siguientes declaraciones de registros:
+	struct punto {
+	int x;
+	int y;
+	};
+
+	struct triangulo {
+	struct punto punto1;
+	struct punto punto2;
+	struct punto punto3;
+	};
+	Definir en la main un registro de tipo triangulo.
+	Codificar las funciones:
+	1-Una funciï¿½n que retorne un registro de tipo triangulo.
+	2-Impresiï¿½n del registro.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 struct punto {

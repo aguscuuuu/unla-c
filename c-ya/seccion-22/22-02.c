@@ -1,4 +1,8 @@
-// Crear una matriz de 3x4. Realizar la carga y luego imprimir el elemento mayor.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Crear una matriz de 3x4. Realizar la carga y luego imprimir el elemento mayor.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void cargarMatriz(int matriz[3][4]){

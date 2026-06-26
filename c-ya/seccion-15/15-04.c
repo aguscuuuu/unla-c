@@ -1,5 +1,9 @@
-// Cargar tres nombres por teclado. Generar un cuarto string que almacene
-// los tres nombres ingresados por teclado en orden alfabético separados por una coma.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Cargar tres nombres por teclado. Generar un cuarto string que almacene
+	los tres nombres ingresados por teclado en orden alfabï¿½tico separados por una coma.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

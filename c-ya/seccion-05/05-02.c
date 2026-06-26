@@ -1,4 +1,9 @@
-// Escribir un programa en el cual se ingresen cuatro números, calcular e informar la suma de los dos primeros y el producto del tercero y el cuarto.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Escribir un programa en el cual se ingresen cuatro nï¿½meros, calcular e informar la suma de
+	los dos primeros y el producto del tercero y el cuarto.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

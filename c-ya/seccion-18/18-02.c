@@ -1,5 +1,9 @@
-// Elaborar una función que nos retorne el perímetro de un
-// cuadrado pasando como parámetros el valor de un lado.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Elaborar una funciï¿½n que nos retorne el perï¿½metro de un
+	cuadrado pasando como parï¿½metros el valor de un lado.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int perimetro(int lado){

@@ -1,5 +1,9 @@
-// Escribir un programa que solicite ingresar 10 notas de alumnos y nos
-// informe cuántos tienen notas mayores o iguales a 7 y cuántos menores.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Escribir un programa que solicite ingresar 10 notas de alumnos y nos
+	informe cuï¿½ntos tienen notas mayores o iguales a 7 y cuï¿½ntos menores.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()

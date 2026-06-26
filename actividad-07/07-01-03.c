@@ -1,3 +1,7 @@
+/*
+    Reescribir los algoritmos de b�squeda binaria utilizando punteros
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

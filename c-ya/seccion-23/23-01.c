@@ -1,6 +1,10 @@
-// Confeccionar un programa que permita:
-// 1- Almacenar en una matriz los datos de 5 personas.
-// 2- Imprimir el nombre alfabéticamente menor.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Confeccionar un programa que permita:
+	1- Almacenar en una matriz los datos de 5 personas.
+	2- Imprimir el nombre alfabï¿½ticamente menor.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void cargarMatriz(char matriz[5][41]){

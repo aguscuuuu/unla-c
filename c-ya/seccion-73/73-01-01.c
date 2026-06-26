@@ -1,7 +1,13 @@
-// Crear un archivo llamado "archivo2.dat". Solicitar la carga de dos enteros y
-// dos float por teclado. Almacenar en el archivo primero los dos enteros y seguidamente los dos float. .
-// Abrir el archivo "arhivo2.dat" creado en el programa anterior y proceder a su lectura e impresión.
-// Abrir el archivo "arhivo2.dat" e imprimir solo los dos valores de tipo float almacenados.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Crear un archivo llamado "archivo2.dat". Solicitar la carga de dos enteros y
+	dos float por teclado. Almacenar en el archivo primero los dos enteros y seguidamente los
+	dos float. .
+	Abrir el archivo "arhivo2.dat" creado en el programa anterior y proceder a su lectura e
+	impresiï¿½n.
+	Abrir el archivo "arhivo2.dat" e imprimir solo los dos valores de tipo float almacenados.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main(){

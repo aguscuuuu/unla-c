@@ -1,5 +1,9 @@
-// Cargar un vector de 5 elementos enteros. Imprimir el menor
-// y un mensaje si se repite dentro del vector.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Cargar un vector de 5 elementos enteros. Imprimir el menor
+	y un mensaje si se repite dentro del vector.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 void cargarVector(int vector[5]){

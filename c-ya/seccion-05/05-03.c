@@ -1,4 +1,8 @@
-// 3) Realizar un programa que lea cuatro valores numéricos e informar su suma y promedio
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Realizar un programa que lea cuatro valores numï¿½ricos e informar su suma y promedio
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

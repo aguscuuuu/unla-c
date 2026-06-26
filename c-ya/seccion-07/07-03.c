@@ -1,5 +1,11 @@
-// Confeccionar un programa que permita cargar un número entero positivo de hasta tres cifras y muestre un mensaje
-// indicando si tiene 1, 2, o 3 cifras. Mostrar un mensaje de error si el número de cifras es mayor.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Confeccionar un programa que permita cargar un nï¿½mero entero positivo de hasta tres cifras
+	y muestre un mensaje
+	indicando si tiene 1, 2, o 3 cifras. Mostrar un mensaje de error si el nï¿½mero de cifras es
+	mayor.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,5 +1,9 @@
-// Elaborar una función que reciba tres enteros y
-// nos retorne el valor promedio de los mismos
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Elaborar una funciï¿½n que reciba tres enteros y
+	nos retorne el valor promedio de los mismos
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 float promedio(int a, int b, int c){

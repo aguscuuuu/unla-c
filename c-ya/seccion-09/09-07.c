@@ -1,7 +1,13 @@
-// Desarrollar un programa que permita cargar n números enteros y luego nos informe cuántos
-// valores fueron pares y cuántos impares. Emplear el operador “%” en la condición de la estructura
-// condicional (este operador retorna el resto de la división de dos valores, por ejemplo 11%2 retorna un 1):
-//	if (valor%2==0)         Si el if da verdadero luego es par.
+/*
+	URL: https://www.tutorialesprogramacionya.com/cya/
+	Desarrollar un programa que permita cargar n nï¿½meros enteros y luego nos informe cuï¿½ntos
+	valores fueron pares y cuï¿½ntos impares. Emplear el operador ï¿½%ï¿½ en la condiciï¿½n de la
+	estructura
+	condicional (este operador retorna el resto de la divisiï¿½n de dos valores, por ejemplo 11%2
+	retorna un 1):
+	if (valor%2==0)         Si el if da verdadero luego es par.
+    --------------------------------------------------------------------------------------------------------
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int main()
