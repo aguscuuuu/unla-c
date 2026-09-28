@@ -27,7 +27,7 @@ The structure is simple and focused on learning, making it ideal for beginners s
 unla-c/
 ├── actividad-01/ -> actividad-09/   # Course activities (one folder per practice set)
 ├── c-ya/                            # Exercises from the C Ya tutorial, grouped by section
-└── examenes/                        # Past exam models both midterms and finals (2019–2023), in PDF
+└── examenes/                        # Past exam models both midterms and finals (2019–2023), in PDF, plus Excel desk checks
 ```
 
 Each `.c` file contains the exercise statement as a comment at the top, followed by its solution, except the `examenes/` folder.
@@ -38,6 +38,20 @@ The `examenes/` folder contains past exam models from **2019 to 2023**, split in
 - **Final exams** (*finales*)
 
 Each group is further divided according to the teaching staff who designed the exams. They are included as extra practice material to prepare for evaluations.
+
+### Desk checks (Excel files)
+Some exam folders include (or will include) an Excel file named `pruebas de escritorio.xlsx` with **desk checks** (*pruebas de escritorio*) for selected exercises. Each desk check traces the program's execution step by step, showing how the variables change with every instruction, which helps you understand the logic without running the code.
+
+There is only **one `.xlsx` file per folder**, one for each of the four folders inside `examenes/`:
+```
+examenes/
+├── 01. golfieri - ejercicios de parciales y recuperatorios/   # pruebas de escritorio.xlsx (available)
+├── 02. otros - ejercicios de parciales y recuperatorios/      # pruebas de escritorio.xlsx (coming soon)
+├── 03. golfieri - ejercicios de final/                        # pruebas de escritorio.xlsx (coming soon)
+└── 04. otros - ejercicios de final/                           # pruebas de escritorio.xlsx (coming soon)
+```
+
+You can open these files with Microsoft Excel, LibreOffice Calc, or Google Sheets.
 
 ---
 
