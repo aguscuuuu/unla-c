@@ -1,7 +1,7 @@
 # C Programming Practice
 ### Universidad Nacional de Lanús, Buenos Aires, Argentina
 
-This repository contains a collection of C language exercises developed for the Computer Programming course taught during the first year of the Bachelor's Degree in Systems at the [National University of Lanús](https://www.unla.edu.ar/). It also includes additional exercises from [C Ya](https://www.tutorialesprogramacionya.com/cya/), a Spanish-language C programming tutorial site. It also includes past exam models (midterms, retakes and finals) from 2019 to 2023, provided by the course's teaching staff. The main goal of this project is to practice fundamental programming concepts while becoming familiar with the syntax and logic of the C programming language.
+This repository contains a collection of C language exercises developed for the Computer Programming course taught during the first year of the Bachelor's Degree in Systems at the [National University of Lanús](https://www.unla.edu.ar/), Buenos Aires, Argentina. It also includes additional exercises from [C Ya](https://www.tutorialesprogramacionya.com/cya/), a Spanish-language C programming tutorial site. It also includes past exam models (midterms, retakes and finals) from 2019 to 2023, provided by the course's teaching staff. The main goal of this project is to practice fundamental programming concepts while becoming familiar with the syntax and logic of the C programming language.
 
 The exercises cover topics such as:
 - Basic syntax, data types, and operators
