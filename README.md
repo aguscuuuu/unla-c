@@ -1,7 +1,7 @@
 # C Programming Practice
 ### Universidad Nacional de Lanús, Buenos Aires, Argentina
 
-This repository contains a collection of C language exercises developed for the Computer Programming course taught during the first year of the Bachelor's Degree in Systems at the National University of Lanús. It also includes additional exercises from [C Ya](https://www.tutorialesprogramacionya.com/cya/), a Spanish-language C programming tutorial site. It also includes past exam models (midterms, retakes and finals) from 2019 to 2023, provided by the course's teaching staff. The main goal of this project is to practice fundamental programming concepts while becoming familiar with the syntax and logic of the C programming language.
+This repository contains a collection of C language exercises developed for the Computer Programming course taught during the first year of the Bachelor's Degree in Systems at the [https://www.unla.edu.ar/](National University of Lanús). It also includes additional exercises from [C Ya](https://www.tutorialesprogramacionya.com/cya/), a Spanish-language C programming tutorial site. It also includes past exam models (midterms, retakes and finals) from 2019 to 2023, provided by the course's teaching staff. The main goal of this project is to practice fundamental programming concepts while becoming familiar with the syntax and logic of the C programming language.
 
 The exercises cover topics such as:
 - Basic syntax, data types, and operators
@@ -28,10 +28,10 @@ unla-c/
 ├── actividad-01 ... actividad-09/   # Course activities (one folder per practice set)
 ├── c-ya/                            # Exercises from the C Ya tutorial, grouped by section
 └── examenes/                        # Past exam models (2019–2023), in PDF
-    ├── A) ... parciales y recuperatorios
-    ├── B) ... parciales y recuperatorios
-    ├── C) ... final
-    └── D) ... final
+    ├── 01. parciales y recuperatorios
+    ├── 02. parciales y recuperatorios
+    ├── 03. final
+    └── 04. final
 ```
 
 Each `.c` file contains the exercise statement as a comment at the top, followed by its solution.
