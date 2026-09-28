@@ -1,7 +1,7 @@
 # C Programming Practice
 ### Universidad Nacional de Lanús, Buenos Aires, Argentina
 
-This repository contains a collection of C language exercises developed for the Computer Programming course taught during the first year of the Bachelor's Degree in Systems at the National University of Lanús. It also includes additional exercises from [C Ya](https://www.tutorialesprogramacionya.com/cya/), a Spanish-language C programming tutorial site. The main goal of this project is to practice fundamental programming concepts while becoming familiar with the syntax and logic of the C programming language.
+This repository contains a collection of C language exercises developed for the Computer Programming course taught during the first year of the Bachelor's Degree in Systems at the National University of Lanús. It also includes additional exercises from [C Ya](https://www.tutorialesprogramacionya.com/cya/), a Spanish-language C programming tutorial site. It also includes past exam models (midterms, retakes and finals) from 2019 to 2023, provided by the course's teaching staff. The main goal of this project is to practice fundamental programming concepts while becoming familiar with the syntax and logic of the C programming language.
 
 The exercises cover topics such as:
 - Basic syntax, data types, and operators
@@ -22,6 +22,29 @@ The structure is simple and focused on learning, making it ideal for beginners s
 
 ---
 
+## Repository Structure
+```
+unla-c/
+├── actividad-01 ... actividad-09/   # Course activities (one folder per practice set)
+├── c-ya/                            # Exercises from the C Ya tutorial, grouped by section
+└── examenes/                        # Past exam models (2019–2023), in PDF
+    ├── A) ... parciales y recuperatorios
+    ├── B) ... parciales y recuperatorios
+    ├── C) ... final
+    └── D) ... final
+```
+
+Each `.c` file contains the exercise statement as a comment at the top, followed by its solution.
+
+### Exam models
+The `examenes/` folder contains past exam models from **2019 to 2023**, split into two groups:
+- **Midterms and retakes** (*parciales y recuperatorios*)
+- **Final exams** (*finales*)
+
+Each group is further divided according to the teaching staff who designed the exams. They are included as extra practice material to prepare for evaluations.
+
+---
+
 # Run
 To execute the exercises locally, follow the steps below.
 
@@ -30,7 +53,7 @@ To execute the exercises locally, follow the steps below.
 git clone https://github.com/aguscuuuu/unla-c.git
 ```
 
-This downloads all the `.c` and `.exe` files with the exercises. Within them are the instructions.
+This downloads all the `.c` source files and the exam PDFs. Compiled executables (`.exe`, `.o`, `a.out`) are ignored by Git, so you will need to compile each exercise yourself.
 
 ### 2. Install a C compiler
 Before running the code, you need to install a C compiler in your computer.
@@ -42,7 +65,7 @@ The video explains how to install:
 - Environment Visual Studio Code setup
 - Basic configuration
 
-> **Note on IDE choice:** The course professors recommend [Code::Blocks](https://www.codeblocks.org/) as the IDE, as it comes with a built-in compiler and is straightforward for beginners. However, I personally migrated to Visual Studio Code for its ease of use and seamless integration with Git and GitHub.
+> **Note on IDE choice:** The course uses [Code::Blocks](https://www.codeblocks.org/) as its official IDE, as it comes with a built-in compiler (MinGW/GCC) and is straightforward for beginners. The exercises were originally written and tested with it, and any of them can be opened and run directly from Code::Blocks (`File → Open`, then `Build → Build and run` or **F9**). However, I personally migrated to Visual Studio Code for its ease of use and seamless integration with Git and GitHub.
 
 ### 3. Compile and run
 
@@ -53,11 +76,28 @@ gcc 2-4.c -o 2-4
 ./2-4
 ```
 
-#### Option B — VSCode shortcut (F9, optional)
-This project includes a `.vscode/tasks.json` file with a predefined task to compile and run the current file automatically.
+#### Option B — Code::Blocks
+Open the `.c` file with `File → Open` and press **F9** (`Build → Build and run`).
+
+#### Option C — VSCode shortcut (F9, optional)
+You can create a `.vscode/tasks.json` file with a task to compile and run the current file automatically:
+```json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Ejecutar C",
+      "type": "shell",
+      "command": "gcc",
+      "args": ["${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}.exe", "&&", "${fileDirname}/${fileBasenameNoExtension}.exe"],
+      "group": "build"
+    }
+  ]
+}
+```
 
 > Note: GCC must be installed and configured (as shown in the setup video) for this to work.  
-> If your compiler path is different, you may need to update the `"command"` field inside `tasks.json`.
+> If `gcc` is not in your `PATH`, you may need to update the `"command"` field inside `tasks.json` with the full compiler path.
 
 To bind the task to **F9**:
 
@@ -84,7 +124,7 @@ Once configured, pressing **F9** will compile and run the currently open `.c` fi
 > In progress.
 
 - **Version:** `1.0.0`
-- **Purpose:** Learning C programming
+- **Purpose:** Learning C programming and exam preparation
 - **Level:** Beginner
 
 New exercises may be added as part of the learning process.
@@ -93,8 +133,9 @@ New exercises may be added as part of the learning process.
 
 ## Used Technologies
 - **Language:** C
-- **Compiler:** GCC (via MSYS2)
-- **Ideal editor:** Visual Studio Code
+- **Compiler:** GCC (via MSYS2 / MinGW)
+- **Course IDE:** Code::Blocks
+- **Personal editor:** Visual Studio Code
 
 ---
 
