@@ -21,12 +21,18 @@ void cargarMatriz(int matriz[10][12]){
     }
 }
 void calcularPromKioscos(int matriz[10][12], float promKioscos[10]){
-
+    for(int i=0; i<10; i++){
+        promKioscos[i] = 0;
+        for(int j=0; j<12; j++){
+            promKioscos[i] = promKioscos[i] + matriz[i][j];
+        }
+        promKioscos[i] = promKioscos[i] / 12;
+    }
 }
 void calcularPromMes(int matriz[10][12], float promMes[12]){
 
 }
-void mostrarPromKioscos (float promKioscos[10]){
+void mostrarPromKioscos(float promKioscos[10]){
 
 }
 void mostrarPromMes(float promMes[12]){
@@ -51,14 +57,16 @@ int main(){
         {425, 175, 315, 100, 385, 240, 290, 170, 450, 125, 265, 330},
         {230, 395, 160, 285, 200, 350, 140, 405, 115, 360, 210, 455}
     };
-    int promKioscos[10] = {0};
-    int promMes[12] = {0};
+    float promKioscos[10] = {0};
+    float promMes[12] = {0};
 
     /*printf("CARGA LA CANTIDAD DE CIGARRILLOS QUE CADA KIOSCO VENDIO POR MES\n\n");
     cargarMatriz(cigarrillos);*/
-    printf("RESUMEN DE VENTAS\n\n");
+    printf("RESUMEN DE VENTAS:\n\n");
     mostrarMatriz(cigarrillos);
-    printf("PROMEDIO DE CIGARRILLOS VENDIDOS POR CADA KIOSCO\n\n");
+    printf("\nPROMEDIO DE CIGARRILLOS VENDIDOS POR CADA KIOSCO EN EL ANIO:\n\n");
+    calcularPromKioscos(cigarrillos, promKioscos);
+    mostrarPromKioscos(promKioscos);
 
     return 0;
 }
