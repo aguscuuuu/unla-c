@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define CANT 10
 
 struct Usuario{
     int dni;
@@ -9,7 +10,7 @@ struct Usuario{
 
 void cargarUsuarios(struct Usuario usuarios[], int cant){
     for (int i=0; i<cant; i++){
-        printf("CARGUE LOS DATOS DEL USUARIO %d\n\n", i+1);
+        printf("\nCARGUE LOS DATOS DEL USUARIO: %d\n\n", i+1);
         printf("NOMBRE: ");
         scanf("%s", usuarios[i].nombre);
         printf("DNI: ");
@@ -19,22 +20,44 @@ void cargarUsuarios(struct Usuario usuarios[], int cant){
     }
 }
 
-void mostrarUsuarios(){
-
+void mostrarUsuarios(struct Usuario usuarios[], int cant){
+    for(int i=0; i<cant; i++){
+        printf("\nUSUARIO %d\nDNI: %d \nNOMBRE: %s \nCONTRASENIA: %s\n", i+1, usuarios[i].dni, usuarios[i].nombre, usuarios[i].contrasenia);
+    }
 }
 
-void ordenarUsuarios(){
+void ordenarUsuarios(struct Usuario usuarios[], int cant){
+    for(int i=0; i<cant; i++){
 
+    }
 }
 
 int usuariosConContraIncorrecta(){
 
-    return ;
+
 }
 
 int main(){
 
-    struct Usuario usuarios[10];
+    // ya cargado (para probar)
+    struct Usuario usuarios[CANT] = {
+        {38456712, "Lucia", "trb4512"},
+        {28734512, "Federico", "sol2024"},
+        {40123987, "Bruno", "gato99"},
+        {45678123, "Ana", "murcielago"},
+        {37890456, "Tomas", "perro77"},
+        {43219876, "Valentina", "mariposa"},
+        {31234567, "Diego", "x7k9p2"},
+        {44561239, "Sofia", "banana12"},
+        {35678901, "Martin", "lunes"},
+        {29876543, "Carla", "aeiou"}
+    };
+
+    //struct Usuario usuarios[CANT];
+    //cargarUsuarios(usuarios, CANT);
+    //ordenarUsuarios(usuarios, CANT);
+    mostrarUsuarios(usuarios, CANT);
+
 
     return 0;
 }
